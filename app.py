@@ -38,7 +38,7 @@ model=pickle.load(open("model.pkl","rb"))
 
 st.title("Spam classifier")
 
-input_sms = st.text_area("Yahan apna message type karein:", placeholder="Example: You won a free lottery of $1000...")
+input_sms = st.text_area("Type your message:", placeholder="Type")
 
 # 3. Jab button click ho, tab kya karna hai?
 if st.button('Predict'):
