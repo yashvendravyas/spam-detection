@@ -30,15 +30,6 @@ Raw SMS -> Preprocessing -> TF-IDF Vectorizer -> Naive Bayes Model -> Spam / Not
 - **SMS Phishing (Smishing) Dataset** (Mishra and Soni, Mendeley Data): modern scam-style messages, with "smishing" labels merged into the spam class
 - Duplicates removed after merging, giving about 11,000 messages in total
 
-## Results
-
-| Model | Precision (spam) | Recall (spam) | Accuracy |
-|-------|------------------|---------------|----------|
-| MultinomialNB | _fill in_ | _fill in_ | _fill in_ |
-| BernoulliNB | _fill in_ | _fill in_ | _fill in_ |
-
-Recall matters more than accuracy here, because the dataset has far more normal messages than spam.
-
 ## Project structure
 
 ```
